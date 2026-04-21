@@ -1,0 +1,50 @@
+{
+  "name": "article-to-ppt-pro",
+  "version": "1.0.0",
+  "description": "文章转PPT增强版 - 一键将文章转换为专业PPT，支持中文排版优化和职场模板库",
+  "main": "main.py",
+  "scripts": {
+    "convert": "python main.py convert",
+    "list": "python main.py list",
+    "preview": "python main.py preview"
+  },
+  "keywords": [
+    "ppt",
+    "presentation",
+    "article",
+    "chinese",
+    "office",
+    "automation"
+  ],
+  "author": "Chen Shuai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenshuai9101/article-to-ppt-pro"
+  },
+  "dependencies": {
+    "python": ">=3.8"
+  },
+  "templates": [
+    {
+      "id": "investor_report",
+      "name": "投资人汇报",
+      "scenes": ["投资人汇报", "商业计划", "融资路演"]
+    },
+    {
+      "id": "performance_review",
+      "name": "述职报告",
+      "scenes": ["述职报告", "绩效考核"]
+    },
+    {
+      "id": "project_summary",
+      "name": "项目总结",
+      "scenes": ["项目总结", "项目复盘"]
+    },
+    {
+      "id": "training_course",
+      "name": "培训课件",
+      "scenes": ["培训课件", "知识分享"]
+    }
+  ]
+}
