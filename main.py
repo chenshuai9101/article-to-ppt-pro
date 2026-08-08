@@ -40,7 +40,7 @@ def main():
         result = converter.convert(args.source, args.template, args.style)
         
         if result.get('success'):
-            print(f"✅ 转换成功!")
+            print("✅ 转换成功!")
             print(f"   文件: {result.get('pptx_file', result.get('file', ''))}")
             print(f"   页数: {result.get('pages', 0)}")
         else:

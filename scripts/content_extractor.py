@@ -12,7 +12,7 @@ Article to PPT Pro - Content Extractor Module
 """
 
 import re
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List
 from dataclasses import dataclass, field
 
 
@@ -318,8 +318,8 @@ class ContentExtractor:
                 notes.append("2. 逐一展开要点")
                 notes.append("3. 用具体案例说明")
         else:
-            notes.append(f"感谢各位的聆听！")
-            notes.append(f"如有疑问，欢迎交流。")
+            notes.append("感谢各位的聆听！")
+            notes.append("如有疑问，欢迎交流。")
         
         return '\n'.join(notes)
 

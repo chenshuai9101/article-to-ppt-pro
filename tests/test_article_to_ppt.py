@@ -18,7 +18,7 @@ def test_import_modules():
         print("✅ 所有核心模块导入成功")
         return True
     except ImportError as e:
-        print(f"⚠️ 模块导入需要完整依赖")
+        print("⚠️ 模块导入需要完整依赖")
         print("✅ 模块结构定义正确")
         return True
 

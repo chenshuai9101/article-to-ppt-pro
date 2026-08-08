@@ -11,10 +11,9 @@ Article to PPT Pro - Export Utilities
 """
 
 import os
-from typing import Dict, List, Optional
 import shutil
-from typing import Optional, List
 from datetime import datetime
+from typing import Dict, List, Optional
 
 
 class ExportUtils:

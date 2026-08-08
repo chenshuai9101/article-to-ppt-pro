@@ -12,9 +12,7 @@ Article to PPT Pro - Article Parser Module
 """
 
 import re
-import html
-from typing import Dict, List, Optional, Tuple
-from urllib.parse import urlparse
+from typing import Dict, List, Tuple
 
 
 class ArticleParser:
